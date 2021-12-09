@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="32.710957">
+<testcase classname="Blazedemo Home Page" name="Homepage Title Verification" time="6.323">
+<system-out><![CDATA[Given user is on Blazedemo Home Page........................................passed
+When user gets the title....................................................passed
+Then page title should appears "BlazeDemo"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blazedemo Home Page" name="User verifies all the text in the homepage" time="5.730001">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When user gets the header and other text....................................passed
+Then Page header should be "Welcome to the Simple Travel Agency!"...........passed
+And Page should contain "Choose your departure city:".......................passed
+And Page should contain "Choose your destination city:".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blazedemo Home Page" name="User verifies dropdown text and select departure city" time="6.294565">
+<system-out><![CDATA[Given User is on homepage screen............................................passed
+When user click on departure city dropdown..................................passed
+Then User should see list of departure cities in the dropdown...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Blazedemo Home Page" name="User verifies dropdown text and select departure city" time="3.878185">
+<system-out><![CDATA[Given User is on homepage screen............................................passed
+When user click on departure city dropdown..................................passed
+Then User should see list of departure cities in the dropdown...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Blazedemo Home Page" name="User should be able to select departure city and Destination city" time="5.219889">
+<system-out><![CDATA[Given User is on homepage screen............................................passed
+When user click on departure city dropdown..................................passed
+Then User should be able to select departure city...........................passed
+And user click on Destination city dropdown.................................passed
+Then User should be able to select Destination City.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blazedemo Home Page" name="Login Button" time="5.265317">
+<system-out><![CDATA[Given user selects destination and departure city...........................passed
+And user should be able to click Find Flight button.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
