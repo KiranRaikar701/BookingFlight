@@ -9,9 +9,9 @@ import org.openqa.selenium.WebDriver;
 import com.Factory.driver.DriverFactory;
 import com.Utility.ConfigReader;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import io.cucumber.java.Before;
+
+
 
 public class ApplicationHook 
 
